@@ -26,6 +26,10 @@ html{
 
 }
 
+=======
+
+}
+
 .top_title{
     font-size: 18px;
     padding: 7px;
@@ -49,6 +53,25 @@ html{
 
 
 
+
+
+.SongName{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.50);
+}
+.SongWriter{
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 5px #666666;
+}
+.SongWriter:hover{
+    color: #2e2e2e;
+    cursor: pointer;
+    transition: 0.7s;
+}
+=======
 
 
 
@@ -109,4 +132,5 @@ li{
 .play:hover{
     border-color: #bebebe;
 }
+
 

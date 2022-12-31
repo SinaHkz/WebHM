@@ -1,51 +1,53 @@
-*{
+* {
     margin: 0px;
 }
-body{
-    background-image: linear-gradient(#0046ae,#9198e5);
+
+body {
+    background-image: linear-gradient(#0046ae, #9198e5);
 }
 
-html{
+html {
     height: 100%;
 }
 
-.div{
+.div {
     margin: 0px auto;
     margin-top: 15%;
     text-align: center;
     height: 400px;
     width: 270px;
     border-radius: 20px;
-    background-image:  linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
     padding: 7px;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.12), 
-    0 2px 2px rgba(0,0,0,0.12), 
-    0 4px 4px rgba(0,0,0,0.12), 
-    0 8px 8px rgba(0,0,0,0.12),
-    0 16px 16px rgba(0,0,0,0.12) ;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12),
+        0 2px 2px rgba(0, 0, 0, 0.12),
+        0 4px 4px rgba(0, 0, 0, 0.12),
+        0 8px 8px rgba(0, 0, 0, 0.12),
+        0 16px 16px rgba(0, 0, 0, 0.12);
 
 
 
 }
 
 
-}
 
-.top_title{
+
+.top_title {
     font-size: 18px;
     padding: 7px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    text-shadow: 4px 4px 6px rgba(0,0,0,0.50);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.50);
 }
 
-.img{
+.img {
     height: 200px;
     width: 135;
     border-radius: 10px;
 }
-.img:hover{
-    box-shadow: 0 5px 5px rgba(0,0,0,0.50);
+
+.img:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.50);
     transition: 0.2s;
 }
 
@@ -67,18 +69,20 @@ html{
 
 
 
-.SongName{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.SongName {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    text-shadow: 4px 4px 6px rgba(0,0,0,0.50);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.50);
 }
-.SongWriter{
+
+.SongWriter {
     color: #666666;
     font-size: smaller;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px 5px #666666;
 }
-.SongWriter:hover{
+
+.SongWriter:hover {
     color: #2e2e2e;
     cursor: pointer;
     transition: 0.7s;
@@ -93,20 +97,21 @@ html{
 
 
 
-.pre{
+.pre {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 }
-input{
+
+input {
     width: 90%;
     border-radius: 10px;
     cursor: pointer;
-    
+
 }
 
 
-.div:hover{
-   background-image: rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792);
+.div:hover {
+    background-image: rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792);
 }
 
 
@@ -124,26 +129,24 @@ input{
 
 .play,
 .back,
-.for{
+.for {
     border-color: #ffffff;
     width: 45px;
     height: 45px;
     border-radius: 50%;
     margin-right: 27px;
 }
+
 ul,
-li{
+li {
     display: inline;
     align-items: center;
-    
+
 }
 
 
 .back,
 .for,
-.play:hover{
+.play:hover {
     border-color: #bebebe;
 }
-
-
-

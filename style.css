@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(#0046ae,#9198e5);
+}
+
+html{
+    height: 100%;
+}
+
+.div{
+    margin: 0px auto;
+    margin-top: 15%;
+    text-align: center;
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+    background-image:  linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    padding: 7px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12) ;
+}

@@ -28,6 +28,9 @@ html {
 
 
 }
+.div:hover{
+    background-image: linear-gradient(rgba(171,179,192,0.796)), rgba(220,234,248,0.792);
+}
 
 
 

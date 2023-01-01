@@ -3,6 +3,7 @@
 }
 
 body {
+    display: block;
     background-image: linear-gradient(#0046ae, #9198e5);
 }
 
@@ -29,9 +30,8 @@ html {
 
 }
 .div:hover{
-    background-image: linear-gradient(rgba(171,179,192,0.796)), rgba(220,234,248,0.792);
+    background-image: linear-gradient(rgba(171,179,192,0.796)), rgba(220,234,248,1);
 }
-
 
 
 
@@ -54,24 +54,6 @@ html {
     transition: 0.2s;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .SongName {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -92,14 +74,6 @@ html {
 }
 
 
-
-
-
-
-
-
-
-
 .pre {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
@@ -113,22 +87,6 @@ input {
 }
 
 
-.div:hover {
-    background-image: rgba(171, 179, 192, 0.796), rgba(220, 234, 248, 0.792);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .play,
 .back,
@@ -137,14 +95,20 @@ input {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    margin-right: 27px;
 }
 
-ul,
+
 li {
     display: inline;
-    align-items: center;
+    align-items: center ;
 
+}
+li{
+    padding-right:29px ;
+    margin: 0px auto;
+}
+.buttom{
+    padding: 0px;
 }
 
 

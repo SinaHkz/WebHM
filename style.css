@@ -113,8 +113,8 @@ ul{
 }
 
 
-.back,
-.for,
+.back:hover,
+.for:hover,
 .play:hover {
     border-color: #bebebe;
 }

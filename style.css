@@ -118,4 +118,5 @@ ul{
 .for:hover,
 .play:hover {
     border-color: #bebebe;
+    cursor: pointer;
 }

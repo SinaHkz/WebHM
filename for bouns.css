@@ -1,0 +1,122 @@
+/*Sina Hakimzadeh-40131857*/
+* {
+    margin: 0px;
+}
+
+body {
+    display: block;
+    background-image: linear-gradient(#0046ae, #9198e5);
+}
+
+html {
+    height: 100%;
+}
+
+.div {
+    margin: 0px auto;
+    margin-top: 15%;
+    text-align: center;
+    height: 25em;
+    width: 16.875em;
+    border-radius: 1.25em;
+    background-image: linear-gradient(rgba(171, 179, 192, 0.694), rgba(220, 234, 248, 0.674));
+    padding: 0.4375em;
+    box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, 0.12),
+        0 0.125em 0.125em rgba(0, 0, 0, 0.12),
+        0 0.25em 0.25em rgba(0, 0, 0, 0.12),
+        0 0.5em 0.5em rgba(0, 0, 0, 0.12),
+        0 1em 1em rgba(0, 0, 0, 0.12);
+
+
+
+}
+.div:hover{
+    background-image: linear-gradient(rgba(171,179,192,0.796), rgba(220,234,248,1));
+    background-repeat: no-repeat;
+}
+
+
+
+.top_title {
+    font-size: 1.125em;
+    padding: 0.4375em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0.25em 0.25em 0.375em rgba(0, 0, 0, 0.50);
+}
+
+.img {
+    height: 12.5em;
+    width: 12.5em;
+    border-radius: 0.625em;
+}
+
+.img:hover {
+    box-shadow: 0 0.3125em 0.3125em rgba(0, 0, 0, 0.50);
+    transition: 0.2s;
+}
+
+.SongName {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 0.25em 0.25em 0.375em rgba(0, 0, 0, 0.50);
+}
+
+.SongWriter {
+    color: #666666;
+    font-size: smaller;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0.125em 0.125em 0.3125em #666666;
+}
+
+.SongWriter:hover {
+    color: #2e2e2e;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+
+.pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+input {
+    width: 90%;
+    border-radius: 0.625em;
+    cursor: pointer;
+
+}
+
+
+
+.play,
+.back,
+.for {
+    border-color: #ffffff;
+    width: 3.4em;
+    height: 3.4em;
+    border-radius: 50%;
+}
+
+
+li {
+    display: inline;
+    align-items: center ;
+
+}
+li{
+    padding-right:1.8125em ;
+    margin: 0px auto;
+}
+ul{
+    padding-left: 2.1875em;
+}
+
+
+.back:hover,
+.for:hover,
+.play:hover {
+    border-color: #bebebe;
+    cursor: pointer;
+}
